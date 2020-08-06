@@ -55,6 +55,7 @@ body
 {
     display: flex;
     flex-direction: column;
+    background-color: #D7DBDD;
 }
 .liste-menu
 {
@@ -65,4 +66,8 @@ body
 {
     font-size: 2rem;
     text-transform: uppercase;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #545454;
 }
