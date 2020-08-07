@@ -119,3 +119,26 @@ h2
 {
     padding-bottom: 5%;
 }
+.cadrephotos
+{
+    width: 576px;
+    height: 432px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #ededed;
+    background-size: contain;
+}
+.container
+{
+    max-width: 576px;
+    margin: 50px auto;
+}
+.photos
+{
+    width: auto;
+    height: 0px;
+    padding-top: 75%;
+    box-shadow: 0px 0px 10px #777;
+    background-color: #ededed;
+    background-size: contain;
+}
