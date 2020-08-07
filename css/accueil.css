@@ -57,14 +57,14 @@ body
     flex-direction: column;
     background-color: #D7DBDD;
 }
-.menu
+.liste-menu
 {
     display: flex;
     flex-direction: row;
 }
 .liste-menu li
 {
-    font-size: 1rem;
+    font-size: 2rem;
     text-transform: uppercase;
     margin-left: 3rem;
     margin-right: 3rem;
