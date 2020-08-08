@@ -57,10 +57,8 @@ body
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     justify-content: center;
-    width: 1200px;
+    max-width: 1500px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 header
 {
@@ -68,6 +66,7 @@ header
     justify-content: center;
     align-content: center;
     height: 8rem;
+    margin-bottom: 5%;
 }
 h1
 {
@@ -86,6 +85,7 @@ section
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 5%;
+    max-width: 1200px;
 }
 ul
 {
@@ -109,6 +109,27 @@ li a:hover
 {
     color: black;
 }
+#menu-accueil
+{
+    margin-left: auto;
+    margin-right: auto; 
+}
+#menu-chambres
+{
+    margin-left: auto;
+    margin-right: auto; 
+}
+#menu-restau
+{
+    margin-left: auto;
+    margin-right: auto; 
+}
+#menu-chambres
+{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 main
 {
     width: 800px;
@@ -147,10 +168,109 @@ p
   }
   .photos img:focus + img {
     left:0;
-    transition:1s;
-    box-shadow:0 0 50px 100px gray;
+    transition:1000ms;
+    box-shadow:0 0 50px 100px white;
   }
   
   /* make it responsive ? */
   .photos , img {max-width:100%;height:auto;}
   img:first-child {position:static;}
+  
+  .avisclients
+  {
+      display: flex;
+      flex-direction: row;
+  }
+  .avisclients div
+  {
+      width: 250px;
+  }
+  #com1
+  {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #com2
+  {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #com3
+  {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .etoiles
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      margin-bottom: 10%;
+  }
+  .etoiles img
+  {
+      width: 150px;
+  }
+  #star1
+  {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #star2
+  {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #star3
+  {
+      margin-left: auto;
+      margin-right: auto;
+  }
+footer
+{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    background-color:#223E69;
+    margin-top: 10rem;
+    min-width: 300px;
+    position: fixed;
+    bottom: 0;
+}
+.foot1
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    color: #FACB48;
+    margin-left: 10%;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: flex-start;
+}
+.foot2
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: right;
+    color: white;
+    margin-right: 10%;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: flex-end;
+}
+footer a 
+{
+    text-decoration-line: none;
+    color: white;
+}
+a:hover
+{
+    color:black;
+}
