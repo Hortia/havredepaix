@@ -118,7 +118,7 @@ a:hover
 {
     color:black;
 }
-@media all and (max-width : 700px)
+@media all and (max-width : 800px)
 {
     ul
     {
