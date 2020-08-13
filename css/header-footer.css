@@ -118,3 +118,20 @@ a:hover
 {
     color:black;
 }
+@media all and (max-width : 700px)
+{
+    ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    section
+    {
+        height: auto;
+        padding-bottom: 1rem;
+    }
+    li a
+    {
+        color: white;
+    }
+}

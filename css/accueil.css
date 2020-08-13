@@ -68,6 +68,7 @@ main
 }
 h2
 {
+    padding-top: 5%;
     padding-bottom: 5%;
     font-size: 1.5rem;
 }
@@ -116,6 +117,7 @@ p
   {
       display: flex;
       flex-direction: row;
+      margin-bottom: 15%;
   }
   .avisclients div
   {
@@ -123,43 +125,66 @@ p
   }
   #com1
   {
+      display: flex;
+      flex-direction: column;
       margin-left: auto;
       margin-right: auto;
+  }
+  #com1 p
+  {
+      padding-bottom: 3.5rem;
   }
   #com2
   {
+    display: flex;
+    flex-direction: column;
       margin-left: auto;
       margin-right: auto;
+  }
+  #com2 p
+  {
+      padding-bottom: 2.5rem;
   }
   #com3
   {
+    display: flex;
+    flex-direction: column;
       margin-left: auto;
       margin-right: auto;
   }
-  .etoiles
-  {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-content: center;
-      margin-bottom: 10%;
-  }
-  .etoiles img
+  .avisclients img
   {
       width: 150px;
-  }
-  #star1
-  {
       margin-left: auto;
       margin-right: auto;
   }
-  #star2
+  @media all and (max-width : 700px)
   {
-      margin-left: auto;
-      margin-right: auto;
-  }
-  #star3
-  {
-      margin-left: auto;
-      margin-right: auto;
+      main
+      {
+          width: auto;
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+      }
+      .avisclients
+      {
+          display: flex;
+          flex-direction: column;
+      }
+      .avisclients div
+      {
+          margin-bottom: 2rem;
+      }
+      .avisclients p
+      {
+          padding-bottom: 5%;
+      }
+      #com1 p
+      {
+          padding-bottom: 1rem;
+      }
+      #com2 p
+      {
+          padding-bottom: 1rem;
+      }
   }
