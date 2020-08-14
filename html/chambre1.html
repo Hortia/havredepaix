@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes"/><!-- trouver attribut content : ici gestion de l'adaptation à l'écran , le content permet une adaptation constante à la largeur de l'écran du device utiliser; le user-scalable=no est pour empecher le zoom-->
-    <title>Carousel</title> 
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="./../css/diapo.css" />
     <link rel="stylesheet" href="./../css/header-footer.css" />
@@ -18,7 +17,7 @@
 </head>
 <body>
     <header>
-        <h1><a href="./index.html" class="logo">Havre de Paix</a>
+        <h1><a href="./accueil.html" class="logo">Havre de Paix</a>
         </h1>
     </header>
     <section>
@@ -26,35 +25,35 @@
             <nav class="liste-menu">
                 <ul>
                     <li id="menu-accueil">
-                        <a href="accueil.html">
+                        <a href="./accueil.html">
                             <span class="menu-text">
                                 accueil
                             </span>
                         </a>
                     </li>
                     <li id="menu-chambres">
-                        <a href="chambres.html">
+                        <a href="./chambres.html">
                             <span class="menu-text">
                                 chambres
                             </span>
                         </a>
                     </li>
                     <li id="menu-reservation">
-                        <a href="reservation.html">
+                        <a href="./reservation.html">
                             <span class="menu-text">
                                 réservation
                             </span>
                         </a>
                     </li>
                     <li id="menu-restau">
-                        <a href="chambres.html">
+                        <a href="./chambres.html">
                             <span class="menu-text">
                                 bar Restaurant
                             </span>
                         </a>
                     </li>
-                    <li id="menu-chambres">
-                        <a href="autourduhavredepaix.html">
+                    <li id="autourduhavredepaix">
+                        <a href="./autourduhavredepaix.html">
                             <span class="menu-text">
                                 autour du havre de paix
                             </span>
@@ -75,26 +74,23 @@
                         <div class=miniature>
                             <input type="radio" name="demo" checked class="fen" id="lightbox-1" />
                                 <label for="lightbox-1">
-                                    <img src="./../img/Havre de paix 1.jpg" alt>
+                                    <img src="./../img/Havredepaix1.jpg" alt>
                                 </label>
-                                <img class="fenetre" src="./../img/Havre de paix 1.jpg" alt>
-                                <figcaption>Titre1, description</figcaption>
-                        </div>
+                                <img class="fenetre" src="./../img/Havredepaix1.jpg" alt>
+                            </div>
                             <div class=miniature>
                                 <input type="radio" name="demo" class="fen" id="lightbox-2" />
                                     <label for="lightbox-2">
-                                    <img src="./../img/Havre de paix 2.jpg" alt>
+                                    <img src="./../img/Havredepaix2.jpg" alt>
                                     </label>
-                                <img class="fenetre" src="./../img/Havre de paix 2.jpg" alt>
-                                <figcaption>Titre2, description</figcaption>
+                                <img class="fenetre" src="./../img/Havredepaix2.jpg" alt>
                             </div>
                             <div class=miniature>
                                 <input type="radio" name="demo" class="fen" id="lightbox-3" />
                                     <label for="lightbox-3">
-                                    <img src="./../img/Havre de paix 3.jpg" alt>
+                                    <img src="./../img/Havredepaix3.jpg" alt>
                                     </label>
-                                <img class="fenetre" src="./../img/Havre de paix 3.jpg" alt>
-                                <figcaption>Titre3, description</figcaption>
+                                <img class="fenetre" src="./../img/Havredepaix3.jpg" alt>
                             </div>
                             <div class=miniature>
                                 <input type="radio" name="demo" class="fen" id="lightbox-4" />
@@ -102,7 +98,6 @@
                                     <img src="./../img/havredepaix4.JPG" alt>
                                     </label>
                                 <img class="fenetre" src="./../img/havredepaix4.JPG" alt>
-                                <figcaption>Titre4, description</figcaption>
                             </div>
                             <div class=miniature>
                                 <input type="radio" name="demo" class="fen" id="lightbox-5" />
@@ -110,7 +105,6 @@
                                     <img src="./../img/havredepaix4.JPG" alt>
                                     </label>
                                 <img class="fenetre" src="./../img/havredepaix4.JPG" alt>
-                                <figcaption>Titre5, descriptionv/figcaption>
                             </div>
                             <div class=miniature>
                                 <input type="radio" name="demo" class="fen" id="lightbox-6" />
@@ -118,11 +112,16 @@
                                     <img src="6.jpg" alt>	
                                     </label>
                                 <img class="fenetre" src="6.jpg" alt>
-                                <figcaption>Titre6, description</figcaption>
                             </div>
                         </div>
                     </div>
-        </div>
+                </div>
+            </div>    
+            <div class="fichetechnique">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <p>Tarif</p>
+            </div>
+        </div>    
     </main>
     <footer>
         <div class="foot1">
@@ -135,6 +134,5 @@
         <!-- partenaires du havre de paix-->
     </div>
 </footer>
-<script src="./../java/diapo.js"></script>
 </body>
 </html>
