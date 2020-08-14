@@ -1,0 +1,69 @@
+*{box-sizing: border-box}
+
+img{max-width: 100%}
+
+input[type=radio]{
+
+position: absolute;
+left: -9999px
+
+}/*on cache tous les input*/
+	
+.cadre-demo1 label{
+	
+cursor:pointer/*on pointe tous les labels*/
+	
+}
+
+.cadre-demo1{
+
+overflow: hidden;
+position: relative;
+max-width: 600px;
+margin: 2rem auto;
+	
+	}
+
+
+.photos-mini{
+	
+	
+padding-top: 66.67%;/* il s'agit du ratio pour le responsive*/
+display: flex;
+
+	}
+
+.miniature{
+
+flex: 1; /*les photos occupent la même place selon la largeur du conteneur*/
+padding-top:5rem;
+padding-left: 0.5rem;
+	
+}
+	
+
+.fenetre{/*grande photo*/
+
+object-fit: cover;
+position: absolute;
+top: 0;
+transition:all .6s;
+left: -100%;
+opacity: 0
+	
+	}
+
+.fen:checked~ .fenetre{
+	
+left: 0;
+opacity: 1
+	
+	}
+
+}
+
+.fen:checked~figcaption{
+
+opacity: 1
+	
+	}
