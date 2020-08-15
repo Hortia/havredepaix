@@ -1,0 +1,20 @@
+main
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2
+{
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+p
+{
+    margin-top: 2rem;
+    margin-bottom: 7%;
+}
+.bar p
+{
+    padding-bottom: 10rem;
+}

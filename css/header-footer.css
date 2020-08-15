@@ -57,16 +57,15 @@ header
     justify-content: center;
     align-content: center;
     height: 8rem;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
 }
-h1
+header img
 {
     margin-left: auto;
     margin-right: auto;
-    font-size: 5rem;
-    color: blue;
-    padding-top: 5%;
-    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin-top: 7%;
+    padding-bottom: 7%;
 }
 a
 {
@@ -79,7 +78,7 @@ section
     margin-bottom: 2%;
     max-width: 100%;
     height: 10rem;
-    background-image: url("./../img/exemplebanniere.jpg");
+    background:linear-gradient(to right, #17434B,white);
 }
 ul
 {
@@ -108,19 +107,37 @@ li a:hover
 #menu-accueil
 {
     margin-left: auto;
+    margin-right: auto;
+}
+#menu-accueil a
+{
+    color: white; 
+}
+#menu-accueil a:hover
+{
+    color: black;
+}
+#menu-chambres a
+{
+    margin-left: auto;
     margin-right: auto; 
+    color: lightgrey;
+}
+#menu-chambres a:hover
+{
+    color: black;
 }
 #menu-chambres
 {
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
-#menu-restau
+#menu-restau 
 {
     margin-left: auto;
     margin-right: auto; 
 }
-#menu-reservation
+#menu-reservation a
 {
     margin-left: auto;
     margin-right: auto; 
@@ -136,7 +153,7 @@ footer
     flex-direction: row;
     height: 10%;
     width: 100%;
-    background-color:#223E69;
+    background:linear-gradient(to right, #17434B,white);
     margin-top: 10rem;
     min-width: 300px;
     position: fixed;
@@ -148,7 +165,6 @@ footer
     flex-direction: column;
     width: 50%;
     text-align: left;
-    color: #FACB48;
     margin-left: 10%;
     font-size: 1.1rem;
     padding-top: 1rem;
@@ -162,7 +178,6 @@ footer
     flex-direction: column;
     width: 50%;
     text-align: right;
-    color: white;
     margin-right: 10%;
     font-size: 1.1rem;
     padding-top: 1rem;
@@ -179,14 +194,23 @@ footer img
 {
     max-width: 30px;
 }
-footer a 
+.foot1 a 
 {
     text-decoration-line: none;
     color: white;
 }
-a:hover
+.foot2 a
+{
+    text-decoration-line: none;
+    color: #3f3f3f;
+}
+.foot1 a:hover
 {
     color:black;
+}
+.foot2 a:hover
+{
+    color: white;
 }
 @media all and (max-width : 800px)
 {
@@ -204,9 +228,9 @@ a:hover
     {
         color: white;
     }
-    h1
+    header img
     {
-        font-size: 3rem;
+        margin-bottom: 9%;
     }
     h2
     {
