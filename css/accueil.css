@@ -66,13 +66,14 @@ main
     margin-left: auto;
     margin-right: auto;
 }
-h2
+.presentation h2
 {
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 1.5rem;
+    margin-bottom: 5%;
 }
-p
+.presentation p
 {
     padding-bottom: 10%;
 }
@@ -119,6 +120,12 @@ p
       flex-direction: row;
       margin-bottom: 15%;
   }
+  .commentaires h2
+  {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.5rem;   
+  }
   .avisclients div
   {
       width: 250px;
@@ -151,6 +158,10 @@ p
     flex-direction: column;
       margin-left: auto;
       margin-right: auto;
+  }
+  #com3 p
+  {
+      padding-bottom: 1.5rem;
   }
   .avisclients img
   {
