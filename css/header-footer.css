@@ -76,9 +76,10 @@ section
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
-    max-width: 100%;
-    height: 10rem;
-    background:linear-gradient(to right, #17434B,white);
+    max-width: auto;
+    height: 15rem;
+    background-image: url(./../img/pool.jpg);
+    opacity: 90%;
 }
 ul
 {
@@ -87,18 +88,18 @@ ul
 }
 .liste-menu li
 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 3rem;
     margin-right: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     color: hsl(0, 0%, 73%);
-    margin-top: 5%;
+    margin-top: 7%;
 }
 li a 
 {
-    color: #3f3f3f;
+    color: white;
 }
 li a:hover
 {
@@ -109,21 +110,7 @@ li a:hover
     margin-left: auto;
     margin-right: auto;
 }
-#menu-accueil a
-{
-    color: white; 
-}
 #menu-accueil a:hover
-{
-    color: black;
-}
-#menu-chambres a
-{
-    margin-left: auto;
-    margin-right: auto; 
-    color: lightgrey;
-}
-#menu-chambres a:hover
 {
     color: black;
 }
@@ -137,7 +124,7 @@ li a:hover
     margin-left: auto;
     margin-right: auto; 
 }
-#menu-reservation a
+#menu-reservation
 {
     margin-left: auto;
     margin-right: auto; 
@@ -153,7 +140,7 @@ footer
     flex-direction: row;
     height: 10%;
     width: 100%;
-    background:linear-gradient(to right, #17434B,white);
+    background:#273481;
     margin-top: 10rem;
     min-width: 300px;
     position: fixed;
@@ -202,7 +189,7 @@ footer img
 .foot2 a
 {
     text-decoration-line: none;
-    color: #3f3f3f;
+    color: white;
 }
 .foot1 a:hover
 {
@@ -210,7 +197,7 @@ footer img
 }
 .foot2 a:hover
 {
-    color: white;
+    color: black;
 }
 @media all and (max-width : 800px)
 {
@@ -230,7 +217,8 @@ footer img
     }
     header img
     {
-        margin-bottom: 9%;
+        margin-bottom: 15%;
+        max-width: 250px;
     }
     h2
     {
