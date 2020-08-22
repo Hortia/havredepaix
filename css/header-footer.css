@@ -78,7 +78,7 @@ section
     margin-bottom: 2%;
     max-width: auto;
     height: 15rem;
-    background-image: url(./../img/pool.jpg);
+    background-image: url(pool.jpg);
     opacity: 90%;
 }
 ul

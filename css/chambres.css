@@ -54,10 +54,8 @@ table {
 body
 {
     background-color: #D7DBDD;
-    font-family: Arial, Helvetica, sans-serif;
     display: block;
     justify-content: center;
-    max-width: 1500px;
     text-align: center;
 }
 .grille-chambre
