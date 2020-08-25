@@ -64,7 +64,7 @@ main
     margin-left: auto;
     margin-right: auto;
 }
-h2
+.presentation h2
 {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -115,6 +115,14 @@ h2
   {
       padding-bottom: 3rem;
   }
+  .commentaires h2
+  {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
   .commentaires p
   {
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
