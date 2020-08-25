@@ -35,6 +35,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    background-color:white;
+    display: block;
+    justify-content: center;
+    text-align: center;
 }
 ol, ul {
 	list-style: none;
@@ -51,13 +55,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body
-{
-    background-color: #D7DBDD;
-    display: block;
-    justify-content: center;
-    text-align: center;
-}
 .grille-chambre
 {
     display: grid;
@@ -67,12 +64,17 @@ body
     margin: auto;
     margin-bottom: 10rem;
 }
+.chambre1 h2
+{
+    font-size: 1.3rem;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .chambre1
 {
     width: 357px;
     margin: auto;
     margin-top: 15%;
-    box-shadow: 0px 0px 3px 3px lightgrey;
     justify-content: center;
     margin-bottom: 2%;
 }
@@ -80,48 +82,73 @@ body
 {
     width: 357px;
 }
+.chambre2 h2
+{
+    font-size: 1.3rem;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .chambre2
 {
     width: 357px;
     margin: auto;
     margin-top: 15%;
-    box-shadow: 0px 0px 3px 3px lightgrey;
     justify-content: center;
     margin-bottom: 2%;
+}
+.chambre3 h2
+{
+    font-size: 1.3rem;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .chambre3
 {
     width: 357px;
     margin: auto;
     margin-top: 15%;
-    box-shadow: 0px 0px 3px 3px lightgrey;
     justify-content: center;
     margin-bottom: 2%;
+}
+.chambre4 h2
+{
+    font-size: 1.3rem;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .chambre4
 {
     width: 357px;
     margin: auto;
     margin-top: 15%;
-    box-shadow: 0px 0px 3px 3px lightgrey;
     justify-content: center;
     margin-bottom: 2%;
+}
+.chambre5 h2
+{
+    font-size: 1.3rem;
+    color:grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .chambre5
 {
     width: 357px;
     margin: auto;
     margin-top: 15%;
-    box-shadow: 0px 0px 3px 3px lightgrey;
     justify-content: center;
     margin-bottom: 2%;
+}
+.chambre6 h2
+{
+    font-size: 1.3rem;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .chambre6
 {
     width: 357px;
     margin: auto;
     margin-top: 15%;
-    box-shadow: 0px 0px 3px 3px lightgrey;
     justify-content: center;
     margin-bottom: 2%;
 }
