@@ -80,8 +80,8 @@ main
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .photos{
-    width:640px;
-    height:480px;
+    width:840px;
+    height:680px;
     margin:auto;
     position:relative;
     overflow:hidden;
